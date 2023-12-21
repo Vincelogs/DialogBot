@@ -1,0 +1,159 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Help me please",
+        "What can you do?"
+      ],
+      "responses": [
+        "Of course! I'm here to help. What do you need assistance with?",
+        "Sure, I can help. What do you need support with?",
+        "How may I assist you today?"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "What's on the menu?",
+        "Tell me about your menu",
+        "What can I order?"
+      ],
+      "responses": [
+        "Our menu includes a variety of coffee blends, teas, and snacks.",
+        "You can choose from our selection of premium coffees and teas."
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "What do you recommend?",
+        "Any recommendations?",
+        "What's your bestseller?"
+      ],
+      "responses": [
+        "Our bestseller is the special blend coffee. I highly recommend trying it!",
+        "If you like strong flavors, our special blend coffee is a popular choice."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where's my order?",
+        "Check my order status",
+        "Track my delivery"
+      ],
+      "responses": [
+        "I can help you track your order. Please provide your order number.",
+        "To check your order status, please share your order number with me."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "What's your contact information?",
+        "Tell me your email address"
+      ],
+      "responses": [
+        "You can reach us at support@example.com",
+        "Feel free to contact us at support@example.com for any inquiries."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "How's the weather today?",
+        "Tell me the weather forecast",
+        "What's the temperature like?"
+      ],
+      "responses": [
+        "I'm sorry, I don't have real-time weather information. You can check a weather website for the latest updates.",
+        "For the current weather, I recommend checking a reliable weather service or app."
+      ]
+    }
+  ]
+}
